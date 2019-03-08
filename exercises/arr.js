@@ -7,7 +7,10 @@
  */
 
 // Your code :
-
+let arr = new Array();
+arr = [
+    4,"2"
+]
 //* Begin of tests
 const assert = require('assert')
 
