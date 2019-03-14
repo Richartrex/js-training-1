@@ -8,8 +8,18 @@
  * @notions Primitive and Operators, Functions, While
  */
 
-// Your code :
-
+// Your code : 
+function multiply(a, b){      
+    let totalA = 0;   
+    let step = ( b < 0 ) ? -a : a;
+    b = ( b < 0 ) ? -b : b;
+    while (b > 0)
+    {                            
+        b--;                      
+        totalA += step;                
+    }   
+    return totalA;    
+}
 //* Begin of tests
 const assert = require('assert')
 

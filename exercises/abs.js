@@ -10,15 +10,16 @@
  */
 
 // Your code :
-function difference(a, b){
-    return Math.abs(a - b);
+function abs(a){    
+    if(a < 0){
+        return (a = -a) 
+}
+    else {
+        return (a = a)
+    }
 }
 
-console.log(difference(3, 5));
 
-console.log(difference(5, 3));
-
-console.log(difference(132, 132))
 //* Begin of tests
 const assert = require('assert')
 
