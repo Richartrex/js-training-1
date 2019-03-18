@@ -16,6 +16,9 @@ const sourceObject = {
 }
 
 // Your code :
+let get = 'num';   
+  if (get);
+    return 42
 
 //* Begin of tests
 const assert = require('assert')
